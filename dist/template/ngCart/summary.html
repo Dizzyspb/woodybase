@@ -1,0 +1,15 @@
+<div class="cart-wrapper">
+  <a href="/cart">
+    <div class="cart-icon">
+      <img src="images/shopping-cart.svg">
+      <p> {{ ngCart.getTotalItems() }} </p>
+    </div>
+
+
+    <div class="cart-total">
+      <p>{{ ngCart.totalCost()}}
+        <span style="font-family: Arial;">&#8381;<span>
+      </p>
+    </div>
+  </a>
+</div>

@@ -1,0 +1,52 @@
+<div class="row" ng-if="service=='http' && ngCart.getTotalItems() !== 0">
+  <div class="col-md-6">
+    <div >
+      <!-- <button class="btn btn-primary" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>-->
+      <form action="post.php" name="userForm" method="POST" novalidate>
+        <div class="form-group">
+          <label for="exampleInputName1">Имя:</label>
+          <input type="text" class="form-control" placeholder="Иванов Иван Иванович" name="name" ng-model="main.user" ng-class="{ 'has-error' : userForm.user.$invalid && !userForm.user.$pristine }" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputEmail1">Электронная почта:</label>
+          <input type="email" placeholder="example@mail.ru" class="form-control" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }" name="email" ng-model="main.email" ng-minlength="5" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputTel1">Телефон:</label>
+          <input type="tel" placeholder="89213456789" class="form-control" name="tel" ng-class="{ 'has-error' : userForm.tel.$invalid && !userForm.tel.$pristine }" ng-model="main.tel" required>
+        </div>
+        <div class="form-group">
+          <label for="exampleInputaddress1">Адрес:</label>
+          <textarea type="textarea" rows="3" placeholder="191234, Санкт-Петербург, Невский проспект 120, корпус 3, кв.41" maxlength="300" class="form-control" name="address" ng-model="main.address" ng-class="{ 'has-error' : userForm.address.$invalid && !userForm.address.$pristine }" required></textarea>
+        </div>
+        <div class="form-group">
+          <label for="examplePromo">Комментарий:</label>
+          <textarea type="textarea" rows="5" placeholder="Оставьте комментарий к заказу" maxlength="300" class="form-control" name="comment" ng-model="main.comment"></textarea>
+        </div>          
+        <div class="form-group">
+          <label for="examplePromo">Промокод:</label>
+          <textarea type="textarea" rows="1" placeholder="" maxlength="10" class="form-control" name="promo" ng-model="main.promo"></textarea>
+        </div>      
+        <input type="hidden" name="style" value="<style>h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
+        <div ng-repeat="item in ngCart.getCart().items">
+          <input type="hidden" value="<p><h1>{{$index+1}}</h1><h1>{{item._id}}</h1><h1>{{item._quantity}} шт.</h1><h1>{{item.getPrice()}} руб.</h1><h1>{{item.getTotal()}} руб.</h1></p>" name="{{$index}}"></input>
+        </div>
+        <input type="hidden" value="{{ngCart.getCart().items.length}}" name="count"></input>
+
+        <input type="hidden" value="<p><h1>Итого:</h1><h1></h1><h1>{{ngCart.getTotalItems()}} шт.</h1><h1></h1><h1>{{ngCart.totalCost()}} руб.</h1></p>" name="summary"></input>
+
+
+        <button type="submit" class="btn btn-primary"  ng-disabled="userForm.$invalid" value="Отправить">Отправить</button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+    <div class="col-md-6 order-info">
+        <p>Заполните данные для заказа. После этого с Вами свяжется наш менеджер для подтверждения.</p>
+        <p>Оплата заказа после подтверждения.</p>
+    </div>
+
+</div>
