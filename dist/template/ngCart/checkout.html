@@ -4,27 +4,27 @@
       <!-- <button class="btn btn-primary" ng-click="checkout()" ng-disabled="!ngCart.getTotalItems()" ng-transclude>Checkout</button>-->
       <form action="post.php" name="userForm" method="POST" novalidate>
         <div class="form-group">
-          <label for="exampleInputName1">Имя:</label>
-          <input type="text" class="form-control" placeholder="Иванов Иван Иванович" name="name" ng-model="main.user" ng-class="{ 'has-error' : userForm.user.$invalid && !userForm.user.$pristine }" required>
+          <label for="exampleInputName1">Name:</label>
+          <input type="text" class="form-control" placeholder="Your name" name="name" ng-model="main.user" ng-class="{ 'has-error' : userForm.user.$invalid && !userForm.user.$pristine }" required>
         </div>
         <div class="form-group">
-          <label for="exampleInputEmail1">Электронная почта:</label>
-          <input type="email" placeholder="example@mail.ru" class="form-control" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }" name="email" ng-model="main.email" ng-minlength="5" required>
+          <label for="exampleInputEmail1">Email:</label>
+          <input type="email" placeholder="example@mail.com" class="form-control" ng-class="{ 'has-error' : userForm.email.$invalid && !userForm.email.$pristine }" name="email" ng-model="main.email" ng-minlength="5" required>
         </div>
         <div class="form-group">
-          <label for="exampleInputTel1">Телефон:</label>
-          <input type="tel" placeholder="89213456789" class="form-control" name="tel" ng-class="{ 'has-error' : userForm.tel.$invalid && !userForm.tel.$pristine }" ng-model="main.tel" required>
+          <label for="exampleInputTel1">Telephone:</label>
+          <input type="tel" placeholder="Your telephone number" class="form-control" name="tel" ng-class="{ 'has-error' : userForm.tel.$invalid && !userForm.tel.$pristine }" ng-model="main.tel" required>
         </div>
         <div class="form-group">
-          <label for="exampleInputaddress1">Адрес:</label>
-          <textarea type="textarea" rows="3" placeholder="191234, Санкт-Петербург, Невский проспект 120, корпус 3, кв.41" maxlength="300" class="form-control" name="address" ng-model="main.address" ng-class="{ 'has-error' : userForm.address.$invalid && !userForm.address.$pristine }" required></textarea>
+          <label for="exampleInputaddress1">Address:</label>
+          <textarea type="textarea" rows="3" placeholder="Delivery address" maxlength="300" class="form-control" name="address" ng-model="main.address" ng-class="{ 'has-error' : userForm.address.$invalid && !userForm.address.$pristine }" required></textarea>
         </div>
         <div class="form-group">
-          <label for="examplePromo">Комментарий:</label>
-          <textarea type="textarea" rows="5" placeholder="Оставьте комментарий к заказу" maxlength="300" class="form-control" name="comment" ng-model="main.comment"></textarea>
+          <label for="examplePromo">Comment:</label>
+          <textarea type="textarea" rows="5" placeholder="Your comment for the order" maxlength="300" class="form-control" name="comment" ng-model="main.comment"></textarea>
         </div>          
         <div class="form-group">
-          <label for="examplePromo">Промокод:</label>
+          <label for="examplePromo">Promocode:</label>
           <textarea type="textarea" rows="1" placeholder="" maxlength="10" class="form-control" name="promo" ng-model="main.promo"></textarea>
         </div>      
         <input type="hidden" name="style" value="<style>h1 {text-align: left;width: 15%;font-weight: normal;color: #333; margin: 0; padding: 0; padding-left: 10px; font-size: 12px; line-height: 1; display: inline-block;} p { margin-top: 0px;font-size: 12px;line-height: 1;}</style>"></input>
@@ -36,7 +36,7 @@
         <input type="hidden" value="<p><h1>Итого:</h1><h1></h1><h1>{{ngCart.getTotalItems()}} шт.</h1><h1></h1><h1>{{ngCart.totalCost()}} руб.</h1></p>" name="summary"></input>
 
 
-        <button type="submit" class="btn btn-primary"  ng-disabled="userForm.$invalid" value="Отправить">Отправить</button>
+        <button type="submit" class="btn btn-primary"  ng-disabled="userForm.$invalid" value="Send">Send</button>
 
       </form>
 
@@ -45,8 +45,8 @@
   </div>
 
     <div class="col-md-6 order-info">
-        <p>Заполните данные для заказа. После этого с Вами свяжется наш менеджер для подтверждения.</p>
-        <p>Оплата заказа после подтверждения.</p>
+        <p>Please fill your information and wait for our answer.</p>
+        <p>Please pay only after our confirmation!</p>
     </div>
 
 </div>
