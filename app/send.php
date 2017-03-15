@@ -25,7 +25,7 @@ $tel=$_POST['tel'];
 $msg=$_POST['message']; 
  
 $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-$headers .= "From: Письмо от Колобашкин.ru <from_site@woodybase.com>\r\n";
+$headers .= "From: Order from Woodybase.com <from_site@woodybase.com>\r\n";
 $headers .= "Reply-To: info@woodybase.com\r\n";
  
 // Проверяем валидность e-mail 
@@ -35,10 +35,9 @@ strtolower($email)))
  
  { 
  
-  echo 
-"<center>Вернитесь <a 
-href='javascript:history.back(1)'><B>назад</B></a>. Вы 
-указали неверные данные!"; 
+  echo
+  "<center>Turn back <a
+  href='javascript:history.back(1)'><B>back</B></a>. Invalid Data!";
  
   } 
  
@@ -48,15 +47,15 @@ href='javascript:history.back(1)'><B>назад</B></a>. Вы
 
 
 
-  $msg="<font size=+1><b>Данные:</b><br><br></font>
+  $msg="<font size=+1><b>Data:</b><br><br></font>
 
-  Имя: $name<br>
+  Name: $name<br>
 
   E-mail: $email<br>
 
-  Телефон: $tel<br><br>
+  Telephone: $tel<br><br>
 
-  <font size=+1><b>Сообщение:</b><br><br></font>
+  <font size=+1><b>Message:</b><br><br></font>
 
   $msg";
  
@@ -64,17 +63,15 @@ href='javascript:history.back(1)'><B>назад</B></a>. Вы
  
  // Отправляем письмо админу  
  
-mail("$adminemail", "$date $time Сообщение 
-от $name, телефон: $tel", "$msg", $headers); 
+mail("$adminemail", "$date $time Message from $name, telephone: $tel", "$msg", $headers); 
  
-mail("$email", "$date $time Сообщение 
-от $name, телефон: $tel", "$msg", $headers); 
+mail("$email", "$date $time Message from $name, telephone: $tel", "$msg", $headers); 
  
 // Сохраняем в базу данных 
  
 $f = fopen("message.txt", "a+"); 
  
-fwrite($f," \n $date $time Сообщение от $name, телефон: $tel"); 
+fwrite($f," \n $date $time Message from $name, telephone: $tel"); 
  
 fwrite($f,"\n $msg "); 
  

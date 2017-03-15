@@ -46,7 +46,7 @@ for ($i=0; $i<=$count; $i++)
   $msg=$style.$msg_all.$summary;
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-  $headers .= "From: Заказ на Woodybase.com <from_site@woodybase.com>\r\n";
+  $headers .= "From: Order from Woodybase.com <from_site@woodybase.com>\r\n";
   $headers .= "Reply-To: info@woodybase.com\r\n";
 
 
@@ -59,9 +59,8 @@ for ($i=0; $i<=$count; $i++)
    {
 
     echo
-  "<center>Вернитесь <a
-  href='javascript:history.back(1)'><B>назад</B></a>. Вы
-  указали неверные данные!";
+  "<center>Turn back <a
+  href='javascript:history.back(1)'><B>back</B></a>. Invalid Data!";
 
     }
 
@@ -70,36 +69,36 @@ for ($i=0; $i<=$count; $i++)
    {
 
 
-  $msg="<font size=+1><b>Данные:</b><br><br></font>
+  $msg="<font size=+1><b>Data:</b><br><br></font>
 
-  Имя: $name<br>
+  Name: $name<br>
 
   E-mail: $email<br>
 
-  Телефон: $tel<br><br>
+  Telephone: $tel<br><br>
 
-  Адрес: $address<br><br>
+  Address: $address<br><br>
 
-  Комментарий: $comment<br><br>
+  Comment: $comment<br><br>
 
-  Промокод: $promo<br><br>
+  Promocode: $promo<br><br>
 
-  <font size=+1><b>Заказ</b><br><br></font>
+  <font size=+1><b>Order</b><br><br></font>
 
   $msg";
 
 
    // Отправляем письмо админу
 
-  mail("$adminemail", "$date $time Сообщение от $name, телефон: $tel, адрес: $address, промокод: $promo", "$msg", $headers);
+  mail("$adminemail", "$date $time Message from $name, telephone: $tel, address: $address, promocode: $promo", "$msg", $headers);
 
-  mail("$email", "$date $time Сообщение от $name, телефон: $tel, адрес: $address, промокод: $promo", "$msg", $headers);
+  mail("$email", "$date $time Message from $name, telephone: $tel, address: $address, promocode: $promo", "$msg", $headers);
 
   // Сохраняем в базу данных
 
   $f = fopen("message.txt", "a+");
 
-  fwrite($f," \n $date $time Сообщение от $name, телефон: $tel");
+  fwrite($f," \n $date $time Message from $name, telephone: $tel");
 
   fwrite($f,"\n $msg ");
 
@@ -117,7 +116,7 @@ for ($i=0; $i<=$count; $i++)
 
   $msg
 
-  <p>Ваш заказ успешно отправлен нашему менеджеру!</p>";
+  <p>Your order has been sent to manager!</p>";
   exit;
 
   }

@@ -16,27 +16,27 @@
 
         <div class="form-group">
           <label>Amount:</label>
-          <input class="form-control" type="number" name="sum" size="20" placeholder="Сумма в рублях" ng-model="main.sum" ng-class="{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }" ng-model="main.sum" required>
+          <input class="form-control" type="number" name="sum" size="20" placeholder="Amount in rubles" ng-model="main.sum" ng-class="{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }" ng-model="main.sum" required>
         </div>
 
         <div class="form-group">
           <label for="custName">First Name, Last name:</label>
-          <input type="text" name="custName" maxlength="80" placeholder="Ваше имя" class="form-control" ng-class="{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }" ng-model="main.custName" required>
+          <input type="text" name="custName" maxlength="80" placeholder="Your name" class="form-control" ng-class="{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }" ng-model="main.custName" required>
         </div>
 
         <div class="form-group">
           <label for="custAddr">Address:</label>
-          <input type="text" name="custAddr" maxlength="300" placeholder="Адрес доставки" class="form-control" ng-class="{ 'has-error' : paymentForm.custAddr.$invalid && !paymentForm.custAddr.$pristine }" ng-model="main.custAddr" required>
+          <input type="text" name="custAddr" maxlength="300" placeholder="Delivery address" class="form-control" ng-class="{ 'has-error' : paymentForm.custAddr.$invalid && !paymentForm.custAddr.$pristine }" ng-model="main.custAddr" required>
         </div>
 
         <div class="form-group">
           <label for="custEmail">E-mail:</label>
-          <input type="email" name="custEmail" maxlength="300" placeholder="Электронная почта" class="form-control" ng-class="{ 'has-error' : paymentForm.custEmail.$invalid && !paymentForm.custEmail.$pristine }" ng-model="main.custEmail" required>
+          <input type="email" name="custEmail" maxlength="300" placeholder="Email" class="form-control" ng-class="{ 'has-error' : paymentForm.custEmail.$invalid && !paymentForm.custEmail.$pristine }" ng-model="main.custEmail" required>
         </div>
 
         <div class="form-group">
           <label for="orderDetails">Details of the order, telephone number:</label>
-          <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Содержание заказа и контактный номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required></textarea>
+          <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Your order" class="form-control" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required></textarea>
         </div>
 
 
