@@ -33,7 +33,7 @@
         </div>
         <input type="hidden" value="{{ngCart.getCart().items.length}}" name="count"></input>
 
-        <input type="hidden" value="<p><h1>Итого:</h1><h1></h1><h1>{{ngCart.getTotalItems()}} шт.</h1><h1></h1><h1>{{ngCart.totalCost()}} руб.</h1></p>" name="summary"></input>
+        <input type="hidden" value="<p><h1>Total:</h1><h1></h1><h1>{{ngCart.getTotalItems()}} шт.</h1><h1></h1><h1>{{ngCart.totalCost()}} руб.</h1></p>" name="summary"></input>
 
 
         <button type="submit" class="btn btn-primary"  ng-disabled="userForm.$invalid" value="Send">Send</button>
