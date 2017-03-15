@@ -1,14 +1,14 @@
 <? 
 // ----------------------------конфигурация-------------------------- // 
  
-$adminemail="info@kolobashkin.ru";  // e-mail админа 
+$adminemail="info@woodybase.com";  // e-mail админа 
  
  
 $date=date("d.m.y"); // число.месяц.год 
  
 $time=date("H:i"); // часы:минуты:секунды 
  
-$backurl="http://kolobashkin.ru/successful";  // На какую страничку переходит после отправки письма 
+$backurl="http://woodybase.com/completed";  // На какую страничку переходит после отправки письма 
  
 //---------------------------------------------------------------------- // 
  
@@ -25,8 +25,8 @@ $tel=$_POST['tel'];
 $msg=$_POST['message']; 
  
 $headers  = "Content-type: text/html; charset=utf-8 \r\n";
-$headers .= "From: Письмо от Колобашкин.ru <from_site@kolobashkin.ru>\r\n";
-$headers .= "Reply-To: info@kolobashkin.ru\r\n";
+$headers .= "From: Письмо от Колобашкин.ru <from_site@woodybase.com>\r\n";
+$headers .= "Reply-To: info@woodybase.com\r\n";
  
 // Проверяем валидность e-mail 
  
@@ -84,7 +84,7 @@ fclose($f);
  
   
 
-header('Location: http://kolobashkin.ru/successful');
+header('Location: http://woodybase.com/successful');
 exit;
  
  

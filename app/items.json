@@ -8,7 +8,7 @@
   "height": 50,
   "diameter_top": null,
   "diameter_bottom": null,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 20,
   "isShown": true,
@@ -44,7 +44,7 @@
   "height": 13,
   "diameter_top": 28,
   "diameter_bottom": 35,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 21,
   "isShown": true,
@@ -80,7 +80,7 @@
   "height": 17,
   "diameter_top": null,
   "diameter_bottom": null,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 22,
   "isShown": true,
@@ -116,7 +116,7 @@
   "height": 103,
   "diameter_top": null,
   "diameter_bottom": null,
-  "exclusive": "Эксклюзив",
+  "exclusive": "Exclusive",
   "promo_en": "",
   "sortCount": 28,
   "isShown": true,
@@ -152,7 +152,7 @@
   "height": 17,
   "diameter_top": null,
   "diameter_bottom": null,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 29,
   "isShown": true,
@@ -190,7 +190,7 @@
   "height": 35,
   "diameter_top": 32,
   "diameter_bottom": 40,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 33,
   "isShown": true,
@@ -226,7 +226,7 @@
   "height": 16,
   "diameter_top": 84,
   "diameter_bottom": 90,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 34,
   "isShown": true,
@@ -262,7 +262,7 @@
   "height": 16,
   "diameter_top": 100,
   "diameter_bottom": 108,
-  "promo": "Новинка!",
+  "promo": "New!",
   "promo_en": "",
   "sortCount": 35,
   "isShown": true,
@@ -895,7 +895,7 @@
   "height": 19,
   "diameter_top": 70,
   "diameter_bottom": 80,
-  "sale": "Распродажа",
+  "sale": "Sale",
   "promo_en": "",
   "sortCount": 140,
   "isShown": true,
@@ -1065,7 +1065,7 @@
   "height": 17,
   "diameter_top": 60,
   "diameter_bottom": 80,
-  "sale": "Распродажа",
+  "sale": "Sale",
   "promo_en": "",
   "sortCount": 180,
   "isShown": true,
@@ -2283,84 +2283,6 @@
         "link": "/images/items/S235B@3x.jpg"
       }, {
         "link": "/images/items/S235B_2@3x.jpg"
-      }]
-    }
-  ]
-},
-
-{
-  "id": "S255",
-  "type": "square",
-  "length_top": 550,
-  "width_top": 150,
-  "length_bottom": 570,
-  "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
-  "diameter_bottom": null,
-  "promo_en": "",
-  "sortCount": 450,
-  "isShown": true,
-  "default_settings": {
-    "material": "beech",
-    "image": "/images/items/S255B@3x.jpg",
-    "price": 1300
-  },
-  "materials": [
-    {
-      "name": "beech",
-      "price": 1300,
-      "weight": 1030,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S255B",
-      "isShown": true,
-      "images": [{
-        "link": "/images/items/S255B@3x.jpg"
-      }, {
-        "link": "/images/items/S255B_2@3x.jpg"
-      }]
-    }
-  ]
-},
-
-
-{
-  "id": "S275",
-  "type": "square",
-  "length_top": 750,
-  "width_top": 150,
-  "length_bottom": 770,
-  "width_bottom": 170,
-  "height": 17,
-  "diameter_top": null,
-  "diameter_bottom": null,
-  "promo": "",
-  "promo_en": "",
-  "sortCount": 460,
-  "isShown": true,
-  "default_settings": {
-    "material": "beech",
-    "image": "/images/items/S275B@3x.jpg",
-    "price": 1700
-  },
-  "materials": [
-    {
-      "name": "beech",
-      "price": 1700,
-      "weight": 1400,
-      "cover": "Масло, натуральный воск",
-      "cover_en": "Decorative impregnating oil, natural wax",
-      "description": "",
-      "description_en": "",
-      "vendor_code": "S275B",
-      "isShown": true,
-      "images": [{
-        "link": "/images/items/S275B@3x.jpg"
-      }, {
-        "link": "/images/items/S275B_2@3x.jpg"
       }]
     }
   ]

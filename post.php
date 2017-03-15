@@ -1,7 +1,7 @@
 <? 
 // ----------------------------конфигурация-------------------------- // 
  
-$adminemail="info@kolobashkin.ru";  // e-mail админа 
+$adminemail="info@woodybase.com";  // e-mail админа 
  
  
 $date=date("d.m.y"); // число.месяц.год 

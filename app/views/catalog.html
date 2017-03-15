@@ -1,28 +1,28 @@
 <div class="filters-block">
   <div class="row">
     <div class="col-md-4">
-      <p><a class="filters-btn" ng-class="{active: (mainFilter == '')}" ng-click="mainFilter = ''">Все</a></p>
-      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'plinth')}" ng-click="mainFilter = 'plinth'">Постаменты</a></p>
-      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'round')}" ng-click="mainFilter = 'round'">Круглые</a></p>
-      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'square')}" ng-click="mainFilter = 'square'">Прямоугольные</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == '')}" ng-click="mainFilter = ''">All</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'plinth')}" ng-click="mainFilter = 'plinth'">Pedestals</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'round')}" ng-click="mainFilter = 'round'">Round</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainFilter == 'square')}" ng-click="mainFilter = 'square'">Rectangular</a></p>
     </div>
 
     <div class="col-md-4">
-      <p><a class="filters-btn" ng-class="{active: (mainSort == 'sortCount')}" ng-click="mainSort = 'sortCount'">По умолчанию</a></p>
-      <p><a class="filters-btn" ng-class="{active: (mainSort == 'default_settings.price')}" ng-click="mainSort = 'default_settings.price'">Сначала дешевле</a></p>
-      <p><a class="filters-btn" ng-class="{active: (mainSort == '-default_settings.price')}" ng-click="mainSort = '-default_settings.price'">Сначала дороже</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainSort == 'sortCount')}" ng-click="mainSort = 'sortCount'">Default</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainSort == 'default_settings.price')}" ng-click="mainSort = 'default_settings.price'">From low to high</a></p>
+      <p><a class="filters-btn" ng-class="{active: (mainSort == '-default_settings.price')}" ng-click="mainSort = '-default_settings.price'">From high to low</a></p>
     </div>
 
     <div class="col-md-1">
-        <p><a class="sale-btn" ng-class="{active: (mainSale !== undefined)}" ng-click="useSale()">Распродажа</a></p>
+        <p><a class="sale-btn" ng-class="{active: (mainSale !== undefined)}" ng-click="useSale()">Sale</a></p>
     </div>
 
     <div class="col-md-1">
-        <p><a class="reduction-btn" ng-class="{active: (mainReduction !== undefined)}" ng-click="useReduction()">Уценка</a></p>
+        <p><a class="reduction-btn" ng-class="{active: (mainReduction !== undefined)}" ng-click="useReduction()">Markdown</a></p>
     </div>
 
     <div class="col-md-2">
-      <input type="text" class="form-control search-form" placeholder="Поиск по артикулу" ng-model="search"></input>
+      <input type="text" class="form-control search-form" placeholder="Search by vendor code" ng-model="search"></input>
     </div>
   </div>
 </div>
