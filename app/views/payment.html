@@ -1,7 +1,7 @@
 <div class="payments-block">
   <div class="row">
     <div class="col-md-12">
-      <h1>Оплатить</h1>
+      <h1>Payment</h1>
     </div>
   </div>
   <div class="row">
@@ -15,17 +15,17 @@
         <input type="hidden" name="customerNumber" size="64">
 
         <div class="form-group">
-          <label>Сумма:</label>
+          <label>Amount:</label>
           <input class="form-control" type="number" name="sum" size="20" placeholder="Сумма в рублях" ng-model="main.sum" ng-class="{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }" ng-model="main.sum" required>
         </div>
 
         <div class="form-group">
-          <label for="custName">ФИО:</label>
+          <label for="custName">First Name, Last name:</label>
           <input type="text" name="custName" maxlength="80" placeholder="Ваше имя" class="form-control" ng-class="{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }" ng-model="main.custName" required>
         </div>
 
         <div class="form-group">
-          <label for="custAddr">Адрес доставки:</label>
+          <label for="custAddr">Address:</label>
           <input type="text" name="custAddr" maxlength="300" placeholder="Адрес доставки" class="form-control" ng-class="{ 'has-error' : paymentForm.custAddr.$invalid && !paymentForm.custAddr.$pristine }" ng-model="main.custAddr" required>
         </div>
 
@@ -35,7 +35,7 @@
         </div>
 
         <div class="form-group">
-          <label for="orderDetails">Содержание заказа и контактный номер телефона:</label>
+          <label for="orderDetails">Details of the order, telephone number:</label>
           <textarea type="text" name="orderDetails" rows="10" cols="60" placeholder="Содержание заказа и контактный номер телефона" class="form-control" ng-class="{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }" ng-model="main.orderDetails" required></textarea>
         </div>
 
@@ -43,10 +43,10 @@
           <div class="radio">
             <label>
               <input type="radio" name="paymentType" checked="checked" value="AC">
-              С банковской карты
+              Using credit card/debet card
             </label>
-
           </div>
+        <!--
           <div class="radio">
             <label>
               <input type="radio" name="paymentType" value="PC">
@@ -102,9 +102,11 @@
             </label>
           </div>
 
+          -->
 
 
-           <button type="submit" ng-disabled="paymentForm.$invalid" class="btn btn-primary">Оплатить</button>
+
+           <button type="submit" ng-disabled="paymentForm.$invalid" class="btn btn-primary">Send</button>
     </form>
 
 <!--
