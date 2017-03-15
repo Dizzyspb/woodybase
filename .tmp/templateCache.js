@@ -12,7 +12,7 @@ angular.module('kolobashkinApp').run(['$templateCache', function($templateCache)
 
 
   $templateCache.put('views/cart.html',
-    "<div class=\"cart-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1> Корзина </h1> <ngcart-cart></ngcart-cart> <ngcart-checkout service=\"http\" settings=\"{ url:'/checkout' }\"></ngcart-checkout> </div> </div> </div>"
+    "<div class=\"cart-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1> Cart </h1> <ngcart-cart></ngcart-cart> <ngcart-checkout service=\"http\" settings=\"{ url:'/checkout' }\"></ngcart-checkout> </div> </div> </div>"
   );
 
 
@@ -22,22 +22,22 @@ angular.module('kolobashkinApp').run(['$templateCache', function($templateCache)
 
 
   $templateCache.put('views/completed.html',
-    "<div class=\"complited-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Спасибо за заказ!</h1> <a href=\"/\">Вернутья на главную</a> </div> </div> </div>"
+    "<div class=\"complited-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Thank you for your order!</h1> <a href=\"/\">Back to the mainpage</a> </div> </div> </div>"
   );
 
 
   $templateCache.put('views/contacts.html',
-    "<div class=\"contacts-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Контакты</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-8\"> <h4>Россия, г. Санкт-Петербург</h4> <p>Электронная почта: <a href=\"mailto:info@woodybase.com\">info@woodybase.com</a></p> <p>Мы Вконтакте: <a href=\"https://vk.com/kolobashkin_ru\" target=\"_blank\">vk.com/kolobashkin_ru</a></p> <p>Мы в Инстаграм: <a href=\"https://www.instagram.com/kolobashkin.ru/\" target=\"_blank\">instagram.com/kolobashkin.ru</a></p> <p>Сайт: <a href=\"http://www.kolobashkin.ru/\" target=\"_blank\">kolobashkin.ru</a></p> <h4 class=\"tel-opt\">Отдел оптовых продаж:</h4> <p><a href=\"tel: +79995280010\">+7 999 528-00-10</a></p> </div> <div class=\"col-md-4\"> <h4>Спешнева Вера Александровна (ИП)</h4> <p>ИНН 110605439307 </p> <p>ОГРНИП 315784700224782</p> <p>Поставлена на учет 24.11.2015 в МИФНС №10 по Санкт-Петербургу</p> <p>Р/счет № 40802810370110006307</p> <p> Банк МОСКОВСКИЙ ФИЛИАЛ АО КБ \"МОДУЛЬБАНК\" Г.МОСКВА</p> <p>БИК 044525092</p> <p>к/с 30101810645250000092</p> </div> </div> </div>"
+    "<div class=\"contacts-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Contacts</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-8\"> <h4>Russia, Saint-Petersburg</h4> <p>email: <a href=\"mailto:info@woodybase.com\">info@woodybase.com</a></p> <p>vk.com: <a href=\"https://vk.com/kolobashkin_ru\" target=\"_blank\">vk.com/kolobashkin_ru</a></p> <p>Instagram: <a href=\"https://www.instagram.com/kolobashkin.ru/\" target=\"_blank\">instagram.com/kolobashkin.ru</a></p> <p>Site: <a href=\"http://www.kolobashkin.ru/\" target=\"_blank\">kolobashkin.ru</a></p> <h4 class=\"tel-opt\">Wholesale:</h4> <p><a href=\"tel: +79995280010\">+7 999 528-00-10</a></p> </div> <div class=\"col-md-4\"> <h4>Speshneva Vera</h4> <p>ИНН 110605439307 </p> <p>ОГРНИП 315784700224782</p> <p>Р/счет № 40802810370110006307</p> <p>к/с 30101810645250000092</p> </div> </div> </div>"
   );
 
 
   $templateCache.put('views/delivery.html',
-    "<div class=\"delivery-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Доставка</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-8\"> <p>Мы рады сообщить вам, что теперь мы доставляем нашу продукцию по всей России. Наши подставки уже нашли своих счастливых обладателей в Калининграде и Владивостоке!</p> <p>Для розничных покупателей, при заказе на сумму от 2000 руб., доставка по Санкт-Петербургу бесплатная. </p> <p>Если сумма заказа менее 2000 руб, то стоимость доставки по Санкт-Петербургу составит 300 руб. </p> <p>Доставка в регионы оговаривается индивидуально.</p> </div> </div> </div>"
+    "<div class=\"delivery-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Delivery</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-8\"> <p>Please contact us for worldwide delivery, we'll glad to calculate the cost</p> </div> </div> </div>"
   );
 
 
   $templateCache.put('views/gallery.html',
-    "<div class=\"gallery-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Галерея моделей на наших подставках</h1> </div> </div> <!--  <div class=\"col-md-6 col-sm-6\">\n" +
+    "<div class=\"gallery-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Gallery</h1> </div> </div> <!--  <div class=\"col-md-6 col-sm-6\">\n" +
     "      <img src=\"images/13.jpg\">\n" +
     "      <p><small>Йол и шлюпка, производители - Мастер-корабел и Фальконет</small></p>\n" +
     "    </div>\n" +
@@ -61,8 +61,64 @@ angular.module('kolobashkinApp').run(['$templateCache', function($templateCache)
 
 
   $templateCache.put('views/payment.html',
-    "<div class=\"payments-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Оплатить</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-6\"> <form method=\"POST\" name=\"paymentForm\" action=\"https://money.yandex.ru/eshop.xml\"> <!-- <input type=\"hidden\" name=\"shopId\" value=\"61812\">\n" +
-    "        <input type=\"hidden\" name=\"scid\" value=\"56687\"> --> <input type=\"hidden\" name=\"customerNumber\" size=\"64\"> <div class=\"form-group\"> <label>Сумма:</label> <input class=\"form-control\" type=\"number\" name=\"sum\" size=\"20\" placeholder=\"Сумма в рублях\" ng-model=\"main.sum\" ng-class=\"{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }\" ng-model=\"main.sum\" required> </div> <div class=\"form-group\"> <label for=\"custName\">ФИО:</label> <input type=\"text\" name=\"custName\" maxlength=\"80\" placeholder=\"Ваше имя\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }\" ng-model=\"main.custName\" required> </div> <div class=\"form-group\"> <label for=\"custAddr\">Адрес доставки:</label> <input type=\"text\" name=\"custAddr\" maxlength=\"300\" placeholder=\"Адрес доставки\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.custAddr.$invalid && !paymentForm.custAddr.$pristine }\" ng-model=\"main.custAddr\" required> </div> <div class=\"form-group\"> <label for=\"custEmail\">E-mail:</label> <input type=\"email\" name=\"custEmail\" maxlength=\"300\" placeholder=\"Электронная почта\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.custEmail.$invalid && !paymentForm.custEmail.$pristine }\" ng-model=\"main.custEmail\" required> </div> <div class=\"form-group\"> <label for=\"orderDetails\">Содержание заказа и контактный номер телефона:</label> <textarea type=\"text\" name=\"orderDetails\" rows=\"10\" cols=\"60\" placeholder=\"Содержание заказа и контактный номер телефона\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }\" ng-model=\"main.orderDetails\" required></textarea> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" checked value=\"AC\"> С банковской карты </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"PC\"> Со счета в Яндекс.Деньгах (яндекс кошелек) </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"WM\"> Оплата cо счета WebMoney </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"AB\"> Оплата через Альфа-Клик </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"QW\"> Оплата через Qiwi </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"KV\"> КупиВкредит </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"GP\"> Оплата по коду через терминал </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"MA\"> Оплата через MasterPass </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"PB\"> Оплата через Промсвязьбанк </label> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" value=\"QP\"> Куппи.ру </label> </div> <button type=\"submit\" ng-disabled=\"paymentForm.$invalid\" class=\"btn btn-primary\">Оплатить</button> </form> <!--\n" +
+    "<div class=\"payments-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Payment</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-6\"> <form method=\"POST\" name=\"paymentForm\" action=\"https://money.yandex.ru/eshop.xml\"> <!-- <input type=\"hidden\" name=\"shopId\" value=\"61812\">\n" +
+    "        <input type=\"hidden\" name=\"scid\" value=\"56687\"> --> <input type=\"hidden\" name=\"customerNumber\" size=\"64\"> <div class=\"form-group\"> <label>Amount:</label> <input class=\"form-control\" type=\"number\" name=\"sum\" size=\"20\" placeholder=\"Сумма в рублях\" ng-model=\"main.sum\" ng-class=\"{ 'has-error' : paymentForm.sum.$invalid && !paymentForm.sum.$pristine }\" ng-model=\"main.sum\" required> </div> <div class=\"form-group\"> <label for=\"custName\">First Name, Last name:</label> <input type=\"text\" name=\"custName\" maxlength=\"80\" placeholder=\"Ваше имя\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.custName.$invalid && !paymentForm.custName.$pristine }\" ng-model=\"main.custName\" required> </div> <div class=\"form-group\"> <label for=\"custAddr\">Address:</label> <input type=\"text\" name=\"custAddr\" maxlength=\"300\" placeholder=\"Адрес доставки\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.custAddr.$invalid && !paymentForm.custAddr.$pristine }\" ng-model=\"main.custAddr\" required> </div> <div class=\"form-group\"> <label for=\"custEmail\">E-mail:</label> <input type=\"email\" name=\"custEmail\" maxlength=\"300\" placeholder=\"Электронная почта\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.custEmail.$invalid && !paymentForm.custEmail.$pristine }\" ng-model=\"main.custEmail\" required> </div> <div class=\"form-group\"> <label for=\"orderDetails\">Details of the order, telephone number:</label> <textarea type=\"text\" name=\"orderDetails\" rows=\"10\" cols=\"60\" placeholder=\"Содержание заказа и контактный номер телефона\" class=\"form-control\" ng-class=\"{ 'has-error' : paymentForm.orderDetails.$invalid && !paymentForm.orderDetails.$pristine }\" ng-model=\"main.orderDetails\" required></textarea> </div> <div class=\"radio\"> <label> <input type=\"radio\" name=\"paymentType\" checked value=\"AC\"> Using credit card/debet card </label> </div> <!--\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"PC\">\n" +
+    "              Со счета в Яндекс.Деньгах (яндекс кошелек)\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"WM\">\n" +
+    "              Оплата cо счета WebMoney\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"AB\">\n" +
+    "              Оплата через Альфа-Клик\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"QW\">\n" +
+    "              Оплата через Qiwi\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"KV\">\n" +
+    "              КупиВкредит\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"GP\">\n" +
+    "              Оплата по коду через терминал\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"MA\">\n" +
+    "              Оплата через MasterPass\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"PB\">\n" +
+    "              Оплата через Промсвязьбанк\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "          <div class=\"radio\">\n" +
+    "            <label>\n" +
+    "              <input type=\"radio\" name=\"paymentType\" value=\"QP\">\n" +
+    "              Куппи.ру\n" +
+    "            </label>\n" +
+    "          </div>\n" +
+    "\n" +
+    "          --> <button type=\"submit\" ng-disabled=\"paymentForm.$invalid\" class=\"btn btn-primary\">Send</button> </form> <!--\n" +
     "\n" +
     "\n" +
     "        <div class=\"form-group\">\n" +
@@ -139,17 +195,17 @@ angular.module('kolobashkinApp').run(['$templateCache', function($templateCache)
 
 
   $templateCache.put('views/post.html',
-    "<div class=\"post-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Написать нам</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-6 col-sm-6\"> <form action=\"send.php\" method=\"POST\"> <div class=\"form-group\"> <label>Имя:</label> <input type=\"text\" name=\"name\" placeholder=\"Иванов Иван Иванович\" class=\"form-control\"> </div> <div class=\"form-group\"> <label>E-mail:</label> <input type=\"text\" name=\"email\" placeholder=\"example@mail.ru\" class=\"form-control\" required> </div> <div class=\"form-group\"> <label>Контактный телефон: </label> <input type=\"text\" name=\"tel\" placeholder=\"89213456789\" class=\"form-control\"> </div> <div class=\"form-group\"> <label>Сообщение: </label> <textarea rows=\"10\" class=\"form-control\" name=\"message\" required></textarea> </div> <button type=\"submit\" class=\"btn btn-primary\">Отправить</button> </form> </div> </div> </div>"
+    "<div class=\"post-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Mail us</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-6 col-sm-6\"> <form action=\"send.php\" method=\"POST\"> <div class=\"form-group\"> <label>Name:</label> <input type=\"text\" name=\"name\" placeholder=\"Иванов Иван Иванович\" class=\"form-control\"> </div> <div class=\"form-group\"> <label>E-mail:</label> <input type=\"text\" name=\"email\" placeholder=\"example@mail.ru\" class=\"form-control\" required> </div> <div class=\"form-group\"> <label>Telephone number: </label> <input type=\"text\" name=\"tel\" placeholder=\"89213456789\" class=\"form-control\"> </div> <div class=\"form-group\"> <label>Message: </label> <textarea rows=\"10\" class=\"form-control\" name=\"message\" required></textarea> </div> <button type=\"submit\" class=\"btn btn-primary\">Send</button> </form> </div> </div> </div>"
   );
 
 
   $templateCache.put('views/shops.html',
-    "<div class=\"shop-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Наши дистрибьютеры</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-8\"> <h4 class=\"margin-helper\">Розничные магазины в Санкт-Петербурге:</h4> <p><strong>«Солдатики»</strong>, Поварской переулок, д.11, (ближайшие станции метро — «Маяковская» и «Владимирская») <a href=\"http://magazin-soldatikov.ru/\" target=\"_blank\">magazin-soldatikov.ru</a></p> <p><strong>«Военный коллекционер»</strong>, Загородный проспект, д.36 (ближайшие станции метро — «Звенигородская», «Пушкинская», «Владимирская», «Достоевская») <a href=\"http://www.militaria-centre.com/\" target=\"_blank\">www.militaria-centre.com</a></p> <p><strong>«Интересный магазин»</strong>, пр. Кима д.4 в помещении магазина «Лига Мебель» (метро «Приморская») <a href=\"http://mymodelizm.ru/\" target=\"_blank\">mymodelizm.ru</a></p> <h4 class=\"tel-opt margin-helper\">Розничные магазины в Москве:</h4> <p><strong>«Startset»</strong>, Волоколамское шоссе д.89, корпус 1, строение 2, офис 116 <a href=\"http://startset.ru/\" target=\"_blank\">startset.ru</a></p> <h4 class=\"tel-opt margin-helper\">Розничные магазины в других регионах:</h4> <dl> <dt><p><em>Архангельск:</em></p></dt> <dd> <p><strong>«Солдатиков.нет»</strong>, пр. Никольский, д. 78, 2-й этаж, офис 4 <a href=\"http://soldatikov.net/\" target=\"_blank\">soldatikov.net</a></p> </dd> <dt><p><em>Воронеж:</em></p></dt> <dd> <p><strong>Хобби-Центр «Илья Муромец»</strong>, ул. Средне-Московская, 32Б <a href=\"https://vk.com/iliamurometz\" target=\"_blank\">vk.com/iliamurometz</a></p> </dd> <dt><p><em>Тула:</em></p></dt> <dd> <p><strong>Хобби-Центр «Магазин Моделей»</strong>, ул.Пушкинская, д.19 офис 101 <a href=\"http://magmodels.ru/\" target=\"_blank\">magmodels.ru</a></p> </dd> <dt><p><em>Набережные Челны:</em></p></dt> <dd> <p><strong>Отдел моделизма, хозтовары \"НАФАНЯ\"</strong>, 41/19А, ТРК \"ФОНТАН\", старая часть здания, 2 этаж, тел.: 8-906-123-39-99, <a href=\"https://vk.com/rat_nik\" target=\"_blank\">vk.com/rat_nik</a></p> </dd> </dl> </div> </div> </div>"
+    "<div class=\"shop-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h1>Disctributors</h1> </div> </div> <div class=\"row\"> <div class=\"col-md-8\"> <h4 class=\"margin-helper\">Розничные магазины в Санкт-Петербурге:</h4> <p><strong>«Солдатики»</strong>, Поварской переулок, д.11, (ближайшие станции метро — «Маяковская» и «Владимирская») <a href=\"http://magazin-soldatikov.ru/\" target=\"_blank\">magazin-soldatikov.ru</a></p> <p><strong>«Военный коллекционер»</strong>, Загородный проспект, д.36 (ближайшие станции метро — «Звенигородская», «Пушкинская», «Владимирская», «Достоевская») <a href=\"http://www.militaria-centre.com/\" target=\"_blank\">www.militaria-centre.com</a></p> <p><strong>«Интересный магазин»</strong>, пр. Кима д.4 в помещении магазина «Лига Мебель» (метро «Приморская») <a href=\"http://mymodelizm.ru/\" target=\"_blank\">mymodelizm.ru</a></p> <h4 class=\"tel-opt margin-helper\">Розничные магазины в Москве:</h4> <p><strong>«Startset»</strong>, Волоколамское шоссе д.89, корпус 1, строение 2, офис 116 <a href=\"http://startset.ru/\" target=\"_blank\">startset.ru</a></p> <h4 class=\"tel-opt margin-helper\">Розничные магазины в других регионах:</h4> <dl> <dt><p><em>Архангельск:</em></p></dt> <dd> <p><strong>«Солдатиков.нет»</strong>, пр. Никольский, д. 78, 2-й этаж, офис 4 <a href=\"http://soldatikov.net/\" target=\"_blank\">soldatikov.net</a></p> </dd> <dt><p><em>Воронеж:</em></p></dt> <dd> <p><strong>Хобби-Центр «Илья Муромец»</strong>, ул. Средне-Московская, 32Б <a href=\"https://vk.com/iliamurometz\" target=\"_blank\">vk.com/iliamurometz</a></p> </dd> <dt><p><em>Тула:</em></p></dt> <dd> <p><strong>Хобби-Центр «Магазин Моделей»</strong>, ул.Пушкинская, д.19 офис 101 <a href=\"http://magmodels.ru/\" target=\"_blank\">magmodels.ru</a></p> </dd> <dt><p><em>Набережные Челны:</em></p></dt> <dd> <p><strong>Отдел моделизма, хозтовары \"НАФАНЯ\"</strong>, 41/19А, ТРК \"ФОНТАН\", старая часть здания, 2 этаж, тел.: 8-906-123-39-99, <a href=\"https://vk.com/rat_nik\" target=\"_blank\">vk.com/rat_nik</a></p> </dd> </dl> </div> </div> </div>"
   );
 
 
   $templateCache.put('views/successful.html',
-    "<div class=\"shop-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h3>Ваше сообщение успешно отправлено!<br> Наш менеджер ответит вам в ближайшее время. </h3></div> </div> </div>"
+    "<div class=\"shop-block\"> <div class=\"row\"> <div class=\"col-md-12\"> <h3>Your message has been sent successfully!<br> Our manager should be contact you as soon as possible </h3></div> </div> </div>"
   );
 
 }]);
