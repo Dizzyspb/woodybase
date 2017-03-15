@@ -1,3 +1,240 @@
+
+
+
+
+
+{
+  "id": "S16",
+  "type": "square",
+  "length_top": 65,
+  "width_top": 65,
+  "length_bottom": 80,
+  "width_bottom": 80,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 270,
+  "isShown": false,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/S16D@3x.jpg",
+    "price": 400
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 400,
+      "weight": 70,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S16D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S16D@3x.jpg"
+      }, {
+        "link": "/images/items/S16D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 250,
+      "weight": 70,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S16B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S16B@3x.jpg"
+      }, {
+        "link": "/images/items/S16B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+
+
+
+{
+  "id": "S112",
+  "type": "square",
+  "length_top": 125,
+  "width_top": 85,
+  "length_bottom": 140,
+  "width_bottom": 100,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 280,
+  "isShown": false,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S112B@3x.jpg",
+    "price": 400
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 400,
+      "weight": 150,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S112B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S112B@3x.jpg"
+      }, {
+        "link": "/images/items/S112B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+{
+  "id": "S115",
+  "type": "square",
+  "length_top": 155,
+  "width_top": 105,
+  "length_bottom": 170,
+  "width_bottom": 120,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 290,
+  "isShown": false,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S115B@3x.jpg",
+    "price": 500
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 500,
+      "weight": 210,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S115B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S115B@3x.jpg"
+      }, {
+        "link": "/images/items/S115B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+
+{
+  "id": "S118",
+  "type": "square",
+  "length_top": 185,
+  "width_top": 105,
+  "length_bottom": 200,
+  "width_bottom": 120,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 300,
+  "isShown": false,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/S118D@3x.jpg",
+    "price": 800
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 800,
+      "weight": 300,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S118D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S118D@3x.jpg"
+      }, {
+        "link": "/images/items/S118D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 600,
+      "weight": 240,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S118B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S118B@3x.jpg"
+      }, {
+        "link": "/images/items/S118B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+{
+  "id": "S125",
+  "type": "square",
+  "length_top": 255,
+  "width_top": 125,
+  "length_bottom": 270,
+  "width_bottom": 140,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 310,
+  "isShown": false,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S125B@3x.jpg",
+    "price": 700
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 700,
+      "weight": 430,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S125B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S125B@3x.jpg"
+      }, {
+        "link": "/images/items/S125B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+
 {
   "id": "S255",
   "type": "square",

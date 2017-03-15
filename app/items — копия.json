@@ -15,12 +15,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P440D@3x.jpg",
-    "price": 500
+    "price": 300
   },
   "materials": [
     {
       "name": "oak",
-      "price": 500,
+      "price": 300,
       "weight": 55,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -51,12 +51,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P628D@3x.jpg",
-    "price": 460
+    "price": 230
   },
   "materials": [
     {
       "name": "oak",
-      "price": 460,
+      "price": 230,
       "weight": 6,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -87,12 +87,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/S212UD@3x.jpg",
-    "price": 800
+    "price": 430
   },
   "materials": [
     {
       "name": "oak",
-      "price": 800,
+      "price": 430,
       "weight": 107,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -123,12 +123,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S26kB@3x.jpg",
-    "price": 1000
+    "price": 500
   },
   "materials": [
     {
       "name": "beech",
-      "price": 1000,
+      "price": 500,
       "weight": 120,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -159,12 +159,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S231B@3x.jpg",
-    "price": 800
+    "price": 440
   },
   "materials": [
     {
       "name": "beech",
-      "price": 800,
+      "price": 440,
       "weight": 120,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -197,12 +197,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/P535B@3x.jpg",
-    "price": 350
+    "price": 180
   },
   "materials": [
     {
       "name": "beech",
-      "price": 350,
+      "price": 180,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -233,12 +233,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R384B@3x.jpg",
-    "price": 650
+    "price": 350
   },
   "materials": [
     {
       "name": "beech",
-      "price": 650,
+      "price": 350,
       "weight": 65,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -269,12 +269,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R3100B@3x.jpg",
-    "price": 750
+    "price": 420
   },
   "materials": [
     {
       "name": "beech",
-      "price": 750,
+      "price": 420,
       "weight": 95,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -305,12 +305,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P560D@3x.jpg",
-    "price": 800
+    "price": 450
   },
   "materials": [
     {
       "name": "oak",
-      "price": 800,
+      "price": 450,
       "weight": 70,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -343,12 +343,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P560CD@3x.jpg",
-    "price": 800
+    "price": 450
   },
   "materials": [
     {
       "name": "oak",
-      "price": 800,
+      "price": 450,
       "weight": 80,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -381,12 +381,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P460D@3x.jpg",
-    "price": 800
+    "price": 450
   },
   "materials": [
     {
       "name": "oak",
-      "price": 800,
+      "price": 450,
       "weight": 85,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -419,12 +419,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P460CD@3x.jpg",
-    "price": 800
+    "price": 450
   },
   "materials": [
     {
       "name": "oak",
-      "price": 800,
+      "price": 450,
       "weight": 90,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -457,12 +457,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R160D@3x.jpg",
-    "price": 350
+    "price": 210
   },
   "materials": [
     {
       "name": "oak",
-      "price": 350,
+      "price": 210,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -478,7 +478,7 @@
     },
     {
       "name": "beech",
-      "price": 280,
+      "price": 170,
       "weight": 20,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -511,12 +511,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R260B@3x.jpg",
-    "price": 380
+    "price": 210
   },
   "materials": [
     {
       "name": "beech",
-      "price": 380,
+      "price": 200,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -549,12 +549,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R360B@3x.jpg",
-    "price": 330
+    "price": 170
   },
   "materials": [
     {
       "name": "beech",
-      "price": 330,
+      "price": 170,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -587,12 +587,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R460D@3x.jpg",
-    "price": 380
+    "price": 210
   },
   "materials": [
     {
       "name": "oak",
-      "price": 380,
+      "price": 210,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -608,7 +608,7 @@
     },
     {
       "name": "beech",
-      "price": 330,
+      "price": 170,
       "weight": 20,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -641,12 +641,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R560D@3x.jpg",
-    "price": 380
+    "price": 210
   },
   "materials": [
     {
       "name": "oak",
-      "price": 380,
+      "price": 210,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -662,7 +662,7 @@
     },
     {
       "name": "beech",
-      "price": 330,
+      "price": 170,
       "weight": 25,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -696,12 +696,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R170D@3x.jpg",
-    "price": 470
+    "price": 250
   },
   "materials": [
     {
       "name": "oak",
-      "price": 470,
+      "price": 250,
       "weight": 35,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -717,7 +717,7 @@
     },
     {
       "name": "beech",
-      "price": 360,
+      "price": 200,
       "weight": 25,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -750,12 +750,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R270B@3x.jpg",
-    "price": 470
+    "price": 240
   },
   "materials": [
     {
       "name": "beech",
-      "price": 470,
+      "price": 240,
       "weight": 60,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -788,12 +788,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R370B@3x.jpg",
-    "price": 380
+    "price": 200
   },
   "materials": [
     {
       "name": "beech",
-      "price": 380,
+      "price": 200,
       "weight": 40,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -826,12 +826,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R470B@3x.jpg",
-    "price": 380
+    "price": 210
   },
   "materials": [
     {
       "name": "beech",
-      "price": 380,
+      "price": 200,
       "weight": 40,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -864,12 +864,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R570B@3x.jpg",
-    "price": 380
+    "price": 200
   },
   "materials": [
     {
       "name": "beech",
-      "price": 380,
+      "price": 200,
       "weight": 40,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -902,14 +902,14 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R180D@3x.jpg",
-    "oldPrice": 670,
-    "price": 550
+    "oldPrice": 380,
+    "price": 300
   },
   "materials": [
     {
       "name": "oak",
-      "oldPrice": 670,      
-      "price": 550,
+      "oldPrice": 380,      
+      "price": 300,
       "weight": 80,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -925,7 +925,7 @@
     },
     {
       "name": "beech",
-      "price": 450,
+      "price": 250,
       "weight": 60,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -958,12 +958,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R280B@3x.jpg",
-    "price": 570
+    "price": 290
   },
   "materials": [
     {
       "name": "beech",
-      "price": 570,
+      "price": 290,
       "weight": 80,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -996,12 +996,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R380B@3x.jpg",
-    "price": 470
+    "price": 250
   },
   "materials": [
     {
       "name": "beech",
-      "price": 470,
+      "price": 250,
       "weight": 60,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1034,12 +1034,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R480B@3x.jpg",
-    "price": 470
+    "price": 250
   },
   "materials": [
     {
       "name": "beech",
-      "price": 470,
+      "price": 250,
       "weight": 60,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1072,14 +1072,14 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R580B@3x.jpg",
-    "oldPrice": 520,
-    "price": 400
+    "oldPrice": 250,
+    "price": 200
   },
   "materials": [
     {
       "name": "beech",
-      "oldPrice": 520,
-      "price": 400,
+      "oldPrice": 250,
+      "price": 200,
       "weight": 50,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1112,12 +1112,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R1120D@3x.jpg",
-    "price": 1100
+    "price": 790
   },
   "materials": [
     {
       "name": "oak",
-      "price": 1100,
+      "price": 790,
       "weight": 220,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1133,7 +1133,7 @@
     },
     {
       "name": "beech",
-      "price": 780,
+      "price": 430,
       "weight": 160,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1166,12 +1166,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/R2120D@3x.jpg",
-    "price": 1100
+    "price": 850
   },
   "materials": [
     {
       "name": "oak",
-      "price": 1100,
+      "price": 850,
       "weight": 210,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1187,7 +1187,7 @@
     },
     {
       "name": "beech",
-      "price": 900,
+      "price": 500,
       "weight": 180,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1220,12 +1220,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R3120B@3x.jpg",
-    "price": 800
+    "price": 420
   },
   "materials": [
     {
       "name": "beech",
-      "price": 800,
+      "price": 420,
       "weight": 154,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1258,12 +1258,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R4120B@3x.jpg",
-    "price": 800
+    "price": 420
   },
   "materials": [
     {
       "name": "beech",
-      "price": 800,
+      "price": 420,
       "weight": 150,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1296,12 +1296,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/R5120B@3x.jpg",
-    "price": 800
+    "price": 420
   },
   "materials": [
     {
       "name": "beech",
-      "price": 800,
+      "price": 420,
       "weight": 150,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1334,12 +1334,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P130D@3x.jpg",
-    "price": 350
+    "price": 180
   },
   "materials": [
     {
       "name": "oak",
-      "price": 350,
+      "price": 180,
       "weight": 15,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1355,7 +1355,7 @@
     },
     {
       "name": "beech",
-      "price": 250,
+      "price": 120,
       "weight": 10,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1388,12 +1388,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P248D@3x.jpg",
-    "price": 600
+    "price": 320
   },
   "materials": [
     {
       "name": "oak",
-      "price": 600,
+      "price": 320,
       "weight": 40,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1409,7 +1409,7 @@
     },
     {
       "name": "beech",
-      "price": 400,
+      "price": 240,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1442,12 +1442,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/P370B@3x.jpg",
-    "price": 700
+    "price": 460
   },
   "materials": [
     {
       "name": "oak",
-      "price": 700,
+      "price": 460,
       "weight": 95,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1463,7 +1463,7 @@
     },
     {
       "name": "beech",
-      "price": 600,
+      "price": 340,
       "weight": 80,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1475,6 +1475,241 @@
         "link": "/images/items/P370B@3x.jpg"
       }, {
         "link": "/images/items/P370B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+
+
+
+
+{
+  "id": "S16",
+  "type": "square",
+  "length_top": 65,
+  "width_top": 65,
+  "length_bottom": 80,
+  "width_bottom": 80,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 270,
+  "isShown": false,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/S16D@3x.jpg",
+    "price": 210
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 210,
+      "weight": 70,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S16D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S16D@3x.jpg"
+      }, {
+        "link": "/images/items/S16D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 140,
+      "weight": 70,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S16B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S16B@3x.jpg"
+      }, {
+        "link": "/images/items/S16B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+
+
+
+{
+  "id": "S112",
+  "type": "square",
+  "length_top": 125,
+  "width_top": 85,
+  "length_bottom": 140,
+  "width_bottom": 100,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 280,
+  "isShown": false,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S112B@3x.jpg",
+    "price": 200
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 200,
+      "weight": 150,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S112B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S112B@3x.jpg"
+      }, {
+        "link": "/images/items/S112B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+{
+  "id": "S115",
+  "type": "square",
+  "length_top": 155,
+  "width_top": 105,
+  "length_bottom": 170,
+  "width_bottom": 120,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 290,
+  "isShown": false,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S115B@3x.jpg",
+    "price": 240
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 240,
+      "weight": 210,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S115B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S115B@3x.jpg"
+      }, {
+        "link": "/images/items/S115B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+
+{
+  "id": "S118",
+  "type": "square",
+  "length_top": 185,
+  "width_top": 105,
+  "length_bottom": 200,
+  "width_bottom": 120,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 300,
+  "isShown": false,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/S118D@3x.jpg",
+    "price": 560
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 560,
+      "weight": 300,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S118D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S118D@3x.jpg"
+      }, {
+        "link": "/images/items/S118D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 300,
+      "weight": 240,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S118B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S118B@3x.jpg"
+      }, {
+        "link": "/images/items/S118B_2@3x.jpg"
+      }]
+    }
+  ]
+},
+
+{
+  "id": "S125",
+  "type": "square",
+  "length_top": 255,
+  "width_top": 125,
+  "length_bottom": 270,
+  "width_bottom": 140,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 310,
+  "isShown": false,
+  "default_settings": {
+    "material": "beech",
+    "image": "/images/items/S125B@3x.jpg",
+    "price": 400
+  },
+  "materials": [
+    {
+      "name": "beech",
+      "price": 400,
+      "weight": 430,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S125B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S125B@3x.jpg"
+      }, {
+        "link": "/images/items/S125B_2@3x.jpg"
       }]
     }
   ]
@@ -1496,12 +1731,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/S24D@3x.jpg",
-    "price": 350
+    "price": 180
   },
   "materials": [
     {
       "name": "oak",
-      "price": 350,
+      "price": 180,
       "weight": 40,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1517,7 +1752,7 @@
     },
     {
       "name": "beech",
-      "price": 250,
+      "price": 120,
       "weight": 30,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1552,12 +1787,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/S26D@3x.jpg",
-    "price": 400
+    "price": 210
   },
   "materials": [
     {
       "name": "oak",
-      "price": 400,
+      "price": 210,
       "weight": 70,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1573,7 +1808,7 @@
     },
     {
       "name": "beech",
-      "price": 250,
+      "price": 140,
       "weight": 80,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1608,12 +1843,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S210B@3x.jpg",
-    "price": 500
+    "price": 250
   },
   "materials": [
     {
       "name": "beech",
-      "price": 500,
+      "price": 250,
       "weight": 160,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1648,12 +1883,12 @@
   "default_settings": {
     "material": "oak",
     "image": "/images/items/S212D@3x.jpg",
-    "price": 700
+    "price": 430
   },
   "materials": [
     {
       "name": "oak",
-      "price": 700,
+      "price": 430,
       "weight": 170,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1669,7 +1904,7 @@
     },
     {
       "name": "beech",
-      "price": 400,
+      "price": 200,
       "weight": 150,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1703,12 +1938,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S215B@3x.jpg",
-    "price": 500
+    "price": 240
   },
   "materials": [
     {
       "name": "beech",
-      "price": 500,
+      "price": 240,
       "weight": 220,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1742,12 +1977,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S218B@3x.jpg",
-    "price": 600
+    "price": 300
   },
   "materials": [
     {
       "name": "beech",
-      "price": 600,
+      "price": 300,
       "weight": 250,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1782,12 +2017,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S220B@3x.jpg",
-    "price": 800
+    "price": 470
   },
   "materials": [
     {
       "name": "beech",
-      "price": 800,
+      "price": 470,
       "weight": 510,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1822,12 +2057,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S225B@3x.jpg",
-    "price": 800
+    "price": 400
   },
   "materials": [
     {
       "name": "beech",
-      "price": 800,
+      "price": 400,
       "weight": 430,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1861,12 +2096,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S230UB@3x.jpg",
-    "price": 900
+    "price": 500
   },
   "materials": [
     {
       "name": "beech",
-      "price": 900,
+      "price": 500,
       "weight": 460,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1899,12 +2134,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S130B@3x.jpg",
-    "price": 1300
+    "price": 700
   },
   "materials": [
     {
       "name": "oak",
-      "price": 1300,
+      "price": 1000,
       "weight": 750,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1920,7 +2155,7 @@
     },
     {
       "name": "beech",
-      "price": 1200,
+      "price": 700,
       "weight": 630,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1954,12 +2189,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S135B@3x.jpg",
-    "price": 1400
+    "price": 800
   },
   "materials": [
     {
       "name": "beech",
-      "price": 1400,
+      "price": 800,
       "weight": 660,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -1992,12 +2227,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S230B@3x.jpg",
-    "price": 1300
+    "price": 700
   },
   "materials": [
     {
       "name": "beech",
-      "price": 1300,
+      "price": 680,
       "weight": 640,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
@@ -2031,12 +2266,12 @@
   "default_settings": {
     "material": "beech",
     "image": "/images/items/S235B@3x.jpg",
-    "price": 1400
+    "price": 800
   },
   "materials": [
     {
       "name": "beech",
-      "price": 1400,
+      "price": 800,
       "weight": 670,
       "cover": "Масло, натуральный воск",
       "cover_en": "Decorative impregnating oil, natural wax",
