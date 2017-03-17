@@ -23,5 +23,15 @@ angular.module('kolobashkinApp')
     $scope.mainFilter = '';
     $scope.mainSale = '';
     $scope.mainSort = 'sortCount';
-
+      
+    $scope.sliderImages = [
+        {
+            'src':'images/sliders/slide_1@1x.jpg',
+            'href':'S230/beech'
+        },
+        {
+            'src':'images/sliders/slide_2@1x.jpg',
+            'href':'P130/beech'
+        }
+    ];
   }]);
