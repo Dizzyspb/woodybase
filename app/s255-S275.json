@@ -1,5 +1,58 @@
 
-
+{
+  "id": "S24",
+  "type": "square",
+  "length_top": 40,
+  "width_top": 40,
+  "length_bottom": 60,
+  "width_bottom": 60,
+  "height": 17,
+  "diameter_top": null,
+  "diameter_bottom": null,
+  "promo": "",
+  "promo_en": "",
+  "sortCount": 340,
+  "isShown": true,
+  "default_settings": {
+    "material": "oak",
+    "image": "/images/items/S24D@3x.jpg",
+    "price": 350
+  },
+  "materials": [
+    {
+      "name": "oak",
+      "price": 350,
+      "weight": 40,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S24D",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S24D@3x.jpg"
+      }, {
+        "link": "/images/items/S24D_2@3x.jpg"
+      }]
+    },
+    {
+      "name": "beech",
+      "price": 250,
+      "weight": 30,
+      "cover": "Масло, натуральный воск",
+      "cover_en": "Decorative impregnating oil, natural wax",
+      "description": "",
+      "description_en": "",
+      "vendor_code": "S24B",
+      "isShown": true,
+      "images": [{
+        "link": "/images/items/S24B@3x.jpg"
+      }, {
+        "link": "/images/items/S24B_2@3x.jpg"
+      }]
+    }
+  ]
+},
 
 
 
