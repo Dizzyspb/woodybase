@@ -42,8 +42,8 @@ for ($i=0; $i<=$count; $i++)
     $msg_value[$i]=$_POST[$i];
     $msg_all = implode("", $msg_value);
   }
-
-  $msg=$style.$msg_all.$summary;
+  $bottom_msg="<br><p>Your order has been sent to the manager!<br><br><b>Thank you for your order.</b></p>";
+  $msg=$style.$top.$msg_all.$summary.$bottom_msg;
 
   $headers  = "Content-type: text/html; charset=utf-8 \r\n";
   $headers .= "From: Order from Woodybase.com <from_site@woodybase.com>\r\n";
@@ -114,9 +114,8 @@ for ($i=0; $i<=$count; $i++)
   function reload() {location = \"$backurl\"}; setTimeout('reload()', 7000);
   --></script>
 
-  $msg
+  $msg";
 
-  <p>Your order has been sent to manager!</p>";
   exit;
 
   }
