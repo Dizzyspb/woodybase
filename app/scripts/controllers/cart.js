@@ -8,8 +8,16 @@
  * Controller of the kolobashkinApp
  */
 angular.module('kolobashkinApp')
-  .controller("CartCtrl", ['$scope', function($scope) {
+    .controller("CartCtrl", ['$scope', 'getItems', function ($scope, getItems) {
 
-    $scope.emailmsg = '<html> <head ><meta http - equiv = "Content-Type"content = "text/html; charset=utf-8" / ><title > Тема страницы < /title> </head><body><p > А здесь ваше сообщение < /p> <body> </html>';
+        getItems.getUrl('/globals.json').success(function (response) {
+           $scope.globals = response;
+            console.log($scope.globals);
+             
+
+        });
+
+        $scope.emailmsg = '<html> <head ><meta http - equiv = "Content-Type"content = "text/html; charset=utf-8" / ><title > Тема страницы < /title> </head><body><p > А здесь ваше сообщение < /p> <body> </html>';
+
 
   }]);

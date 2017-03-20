@@ -1,68 +1,82 @@
-<div class="cart-block">
-  <div class="row">
-    <div class="col-md-12">
-      <div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
-         Your cart is empty!
-      </div>
+<div class="cart-block" ng-controller="CartCtrl">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="alert alert-warning" role="alert" ng-show="ngCart.getTotalItems() === 0">
+                Your cart is empty!
+            </div>
 
-      <div class="table-responsive" ng-show="ngCart.getTotalItems() > 0">
+            <div class="table-responsive" ng-show="ngCart.getTotalItems() > 0">
 
-        <table class="table table-striped ngCart cart">
+                <table class="table table-striped ngCart cart">
 
-          <thead>
-            <tr>
-              <th></th>
-              <th></th>
-              <th>Quantity</th>
-              <th>Price</th>
-              <th>Cost in USD</th>
-            </tr>
-          </thead>
-          <tfoot>
-            <tr ng-show="ngCart.getTax()">
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>Tax ({{ ngCart.getTaxRate() }}%):</td>
-              <td>{{ ngCart.getTax() | currency }} </td>
-            </tr>
-            <tr ng-show="ngCart.getShipping()">
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>Shipping:</td>
-              <td><curency>$</curency>{{ ngCart.getShipping() }}</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td>Total cost:</td>
-              <td><curency>$</curency>{{ ngCart.totalCost() }}</td>
-            </tr>
-          </tfoot>
-          <tbody>
-            <tr ng-repeat="item in ngCart.getCart().items track by $index">
-              <td><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                            <th>Quantity</th>
+                            <th>Price</th>
+                            <th>Cost in USD</th>
+                            <th>Cost in Euro</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr ng-show="ngCart.getTax()">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Tax ({{ ngCart.getTaxRate() }}%):</td>
+                            <td>{{ ngCart.getTax() | currency }} </td>
+                        </tr>
+                        <tr ng-show="ngCart.getShipping()">
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Shipping:</td>
+                            <td>
+                                <curency>$</curency>{{ ngCart.getShipping() }}</td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>Total cost:</td>
+                            <td>
+                                <curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2 }}</td>
+                            <td>{{ ngCart.totalCost() / globals.exchange_euro | number: 2 }} <curency>€</curency></td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr ng-repeat="item in ngCart.getCart().items track by $index">
+                            <td><span ng-click="ngCart.removeItemById(item.getId())" class="glyphicon glyphicon-remove"></span></td>
 
-              <td><img style="width: auto; height: 24px; margin-right: 4px;" ng-src="{{item.getData()[0]}}"><a ng-href="/{{ item.getData()[1] }}">{{ item.getName() }}</a></td>
-              <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}" ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp; {{ item.getQuantity() | number }}&nbsp;&nbsp;
-                <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
-              <td><curency>$</curency>{{ item.getPrice() | number: 2 }}</td>
-              <td><curency>$</curency>{{ item.getTotal() | number: 2 }}</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
+                            <td><img style="width: auto; height: 24px; margin-right: 4px;" ng-src="{{item.getData()[0]}}"><a ng-href="/{{ item.getData()[1] }}">{{ item.getName() }}</a></td>
+                            <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}" ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp; {{ item.getQuantity() | number }}&nbsp;&nbsp;
+                                <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
+                            <td>
+                                {{ item.getPrice() | number: 2 }}
+                                <curency>₽</curency>
+                            </td>
+                            <td>
+                                <curency>$</curency>{{ item.getTotal()/ globals.exchange_usd | number: 2 }}</td>
+                            <td>
+                                {{ item.getTotal() / globals.exchange_euro | number: 2 }}
+                                <curency>€</curency>
+                            </td>
+                        </tr>
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-  </div>
 </div>
 <style>
-  .ngCart.cart span[ng-click] {
-    cursor: pointer;
-  }
+    .ngCart.cart span[ng-click] {
+        cursor: pointer;
+    }
+    
+    .ngCart.cart .glyphicon.disabled {
+        color: #aaa;
+    }
 
-  .ngCart.cart .glyphicon.disabled {
-    color: #aaa;
-  }
 </style>

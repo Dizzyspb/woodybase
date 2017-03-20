@@ -32,7 +32,7 @@
         <h1><Strike ng-show="{{!currentArrayMaterial.oldPrice}}"><font class="oldPrice">{{currentArrayMaterial.oldPrice / globals.exchange_usd | currency}}</font></Strike>{{currentArrayMaterial.price}} <span style="font-family: Arial;">&#8381;</span> <font color=gray>~{{currentArrayMaterial.price / globals.exchange_usd | currency}}/~{{currentArrayMaterial.price / globals.exchange_euro | currency:'€'}}</font></h1>
 
         <div class="buy-button">
-          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price/ globals.exchange_usd }}" quantity="1" quantity-max="30" data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>
+          <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30" data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>
         </div>
       </div>
       <h4>{{globals.text_sizes_en}}</h4>
