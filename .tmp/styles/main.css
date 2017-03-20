@@ -190,7 +190,6 @@ body a:hover {
 .wrapper {
     margin-bottom: 30px;
     color: #242424;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
     padding-top: 90px;
     padding-bottom: 90px;
@@ -198,7 +197,6 @@ body a:hover {
 }
 .wrapper:hover {
     box-shadow: 0px 4px 10px 0px #dddddd;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 img {
@@ -226,7 +224,6 @@ img {
     background: #fff;
     border-radius: 16px;
     color: #ed4d38;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 .item-action span:hover {
@@ -236,7 +233,6 @@ img {
     color: #fff;
     box-shadow: 0px 4px 30px 0px #ed4d38;
     cursor: pointer;
-    -webkit-transition-duration: 0.3s;
     transition-duration: 0.3s;
 }
 .item-sizes {
@@ -619,9 +615,6 @@ img {
 .repeat-animation.ng-enter,
 .repeat-animation.ng-leave,
 .repeat-animation.ng-move {
-    -webkit-transition: all linear 0.3s;
-    -moz-transition: all linear 0.3s;
-    -o-transition: all linear 0.3s;
     transition: all linear 0.3s;
     position: relative;
 }
