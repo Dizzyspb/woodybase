@@ -1,4 +1,4 @@
-<div class="cart-wrapper">
+<div class="cart-wrapper" ng-controller="CartCtrl">
   <a href="/cart">
     <div class="cart-icon">
       <img src="images/shopping-cart.svg">
@@ -7,8 +7,7 @@
 
 
     <div class="cart-total">
-      <p>{{ ngCart.totalCost()}}
-        <span style="font-family: Arial;">&#8381;<span>
+      <p>{{ ngCart.totalCost() | number: 2}} <span style="font-family: Arial;">&#8381;</span><br><font color=gray><curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2}}<br><curency>€</curency>{{ ngCart.totalCost() / globals.exchange_euro | number: 2}}</font>
       </p>
     </div>
   </a>
