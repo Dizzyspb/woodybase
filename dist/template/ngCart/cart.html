@@ -41,7 +41,7 @@
                             <td></td>
                             <td></td>
                             <td>Total cost:</td>
-                            <td>{{ ngCart.totalCost() | number: 2}}<span style="font-family: Arial;">&#8381;</span></td>
+                            <td>{{ ngCart.totalCost() | number: 2}} <span style="font-family: Arial;">&#8381;</span></td>
                             <td><curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2 }}</td>
                             <td>{{ ngCart.totalCost() / globals.exchange_euro | number: 2 }}<curency>€</curency></td>
                         </tr>
@@ -58,10 +58,10 @@
                             <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}" ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp; {{ item.getQuantity() | number }}&nbsp;&nbsp;
                                 <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
                             <td>
-                                {{ item.getPrice() | number: 2 }}<curency><span style="font-family: Arial;">&#8381;</span></curency>
+                                {{ item.getPrice() | number: 2 }}<curency> <span style="font-family: Arial;">&#8381;</span></curency>
                             </td>
                              <td>
-                                {{ item.getTotal() | number: 2 }}<curency><span style="font-family: Arial;">&#8381;</span></td>
+                                {{ item.getTotal() | number: 2 }}<curency> <span style="font-family: Arial;">&#8381;</span></td>
                             <td>
                                 <curency>$</curency>{{ item.getTotal()/ globals.exchange_usd | number: 2 }}
                             </td>
