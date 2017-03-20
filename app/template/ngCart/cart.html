@@ -15,7 +15,7 @@
               <th></th>
               <th>Quantity</th>
               <th>Price</th>
-              <th>Cost in rubles</th>
+              <th>Cost in USD</th>
             </tr>
           </thead>
           <tfoot>
@@ -48,8 +48,8 @@
               <td><img style="width: auto; height: 24px; margin-right: 4px;" ng-src="{{item.getData()[0]}}"><a ng-href="/{{ item.getData()[1] }}">{{ item.getName() }}</a></td>
               <td><span class="glyphicon glyphicon-minus" ng-class="{'disabled':item.getQuantity()==1}" ng-click="item.setQuantity(-1, true)"></span>&nbsp;&nbsp; {{ item.getQuantity() | number }}&nbsp;&nbsp;
                 <span class="glyphicon glyphicon-plus" ng-click="item.setQuantity(1, true)"></span></td>
-              <td><curency>$</curency>{{ item.getPrice() }}</td>
-              <td><curency>$</curency>{{ item.getTotal() }}</td>
+              <td><curency>$</curency>{{ item.getPrice() | number: 2 }}</td>
+              <td><curency>$</curency>{{ item.getTotal() | number: 2 }}</td>
             </tr>
           </tbody>
         </table>

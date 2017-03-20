@@ -41,7 +41,7 @@
 
 
           <div class="item-description">
-            <p><curency>$</curency><Strike ng-show="{{item.default_settings.oldPrice}}"><font class="salePrice">{{item.default_settings.oldPrice}} </font></Strike>{{item.default_settings.price}}</p>
+            <p><Strike ng-show="{{item.default_settings.oldPrice}}"><font class="salePrice">{{item.default_settings.oldPrice / globals.exchange_usd | currency }} </font></Strike>{{item.default_settings.price / globals.exchange_usd | currency}}</p>
           </div>
 
           <div class="item-sizes">

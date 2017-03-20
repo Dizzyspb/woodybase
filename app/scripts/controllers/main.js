@@ -32,6 +32,22 @@ angular.module('kolobashkinApp')
         {
             'src':'images/sliders/slide_2@2x.jpg',
             'href':'P130/beech'
-        }
+        },
+        {
+            'src':'images/sliders/slide_3@2x.jpg',
+            'href':'P460/oak'
+        },
+        {
+            'src':'images/sliders/slide_4@2x.jpg',
+            'href':'S210/beech'
+        },
+        {
+            'src':'images/sliders/slide_5@2x.jpg',
+            'href':'S212/beech'
+        },
+        {
+            'src':'images/sliders/slide_6@2x.jpg',
+            'href':'R560/beech'
+        }         
     ];
   }]);
