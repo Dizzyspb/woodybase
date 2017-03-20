@@ -53,6 +53,7 @@ body a:hover {
 }
 .cart-icon {
     position: relative;
+    top: -20px;
     display: inline-block;
     text-decoration: none;
 }

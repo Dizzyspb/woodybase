@@ -15,8 +15,8 @@
                             <th></th>
                             <th>Quantity</th>
                             <th>Price</th>
-                            <th>Cost in USD</th>
-                            <th>Cost in Euro</th>
+                            <th>Approx. сost in USD</th>
+                            <th>Approx. сost in Euro</th>
                         </tr>
                     </thead>
                     <tfoot>
@@ -38,8 +38,8 @@
                         <tr>
                             <td></td>
                             <td></td>
-                            <td></td>
                             <td>Total cost:</td>
+                            <td>{{ ngCart.totalCost() | number: 2}}<span style="font-family: Arial;">&#8381;</span></td>
                             <td>
                                 <curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2 }}</td>
                             <td>{{ ngCart.totalCost() / globals.exchange_euro | number: 2 }} <curency>€</curency></td>

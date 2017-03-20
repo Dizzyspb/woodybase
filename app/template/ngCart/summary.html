@@ -7,8 +7,7 @@
 
 
     <div class="cart-total">
-      <p><curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2}}
-        
+      <p>{{ ngCart.totalCost() | number: 2}} <span style="font-family: Arial;">&#8381;</span><br><font color=gray><curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2}}<br><curency>€</curency>{{ ngCart.totalCost() / globals.exchange_euro | number: 2}}</font>
       </p>
     </div>
   </a>
