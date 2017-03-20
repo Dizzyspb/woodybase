@@ -29,7 +29,7 @@
       <small>{{globals.text_vendor_code_en}}</small>
       <h1>{{currentArrayMaterial.vendor_code}}</h1>
       <div class="buy-block">
-        <h1><Strike ng-show="{{!currentArrayMaterial.oldPrice}}"><font class="oldPrice">{{currentArrayMaterial.oldPrice / globals.exchange_usd | currency}}</font></Strike>{{currentArrayMaterial.price}} <span style="font-family: Arial;">&#8381;</span> <font color=gray size=-1>~{{currentArrayMaterial.price / globals.exchange_usd | currency}}/~{{currentArrayMaterial.price / globals.exchange_euro | number: 2}}€</font></h1>
+        <h1><Strike ng-show="{{!currentArrayMaterial.oldPrice}}"><font class="oldPrice">{{currentArrayMaterial.oldPrice / globals.exchange_usd | currency}}</font></Strike>{{currentArrayMaterial.price}} <span style="font-family: Arial;">&#8381;</span> <font class="usd-eu">~{{currentArrayMaterial.price / globals.exchange_usd | currency}}/~{{currentArrayMaterial.price / globals.exchange_euro | number: 2}}€</font></h1>
 
         <div class="buy-button">
           <ngcart-addtocart id="{{currentArrayMaterial.vendor_code}}" name="{{currentArrayMaterial.vendor_code}}" price="{{currentArrayMaterial.price}}" quantity="1" quantity-max="30" data="[currentArrayMaterial.images[0].link, URL]"></ngcart-addtocart>

@@ -12,8 +12,7 @@ angular.module('kolobashkinApp')
 
         getItems.getUrl('/globals.json').success(function (response) {
            $scope.globals = response;
-            console.log($scope.globals);
-             
+                         
 
         });
 

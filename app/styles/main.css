@@ -1025,3 +1025,7 @@ img {
 .main-description br {
     line-height: 1.5;
 }
+.usd-eu {
+    color: darkgray;
+    font-size: 12px;
+}
