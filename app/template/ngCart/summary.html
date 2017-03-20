@@ -1,4 +1,4 @@
-<div class="cart-wrapper">
+<div class="cart-wrapper" ng-controller="CartCtrl">
   <a href="/cart">
     <div class="cart-icon">
       <img src="images/shopping-cart.svg">
@@ -7,7 +7,7 @@
 
 
     <div class="cart-total">
-      <p><curency>$</curency>{{ ngCart.totalCost()}}
+      <p><curency>$</curency>{{ ngCart.totalCost() / globals.exchange_usd | number: 2}}
         
       </p>
     </div>
