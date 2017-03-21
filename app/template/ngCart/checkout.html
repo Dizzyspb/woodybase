@@ -35,7 +35,7 @@
         <div ng-repeat="item in ngCart.getCart().items">
 
 
-        <input type="hidden" value="<p><h1>{{$index+1}}</h1><h1> <a ng-href="http://woodybase.com/{{ item.getData()[1] }}">{{item._id}}</a></h1><h1>{{item._quantity}} pcs.</h1><h1>{{item.getTotal()}} rub.</h1><h1>~${{item.getTotal() / globals.exchange_usd | number: 2}}</h1><h1>~{{item.getTotal() / globals.exchange_euro | number: 2}}€</h1></p>" name="{{$index}}"></input>
+        <input type="hidden" value="<p><h1>{{$index+1}}</h1><h1> <a ng-href=http://woodybase.com/{{item.getData()[1]}}>{{item._id}}</a></h1><h1>{{item._quantity}} pcs.</h1><h1>{{item.getTotal()}} rub.</h1><h1>~${{item.getTotal() / globals.exchange_usd | number: 2}}</h1><h1>~{{item.getTotal() / globals.exchange_euro | number: 2}}€</h1></p>" name="{{$index}}"></input>
         </div>
 
         <input type="hidden" value="{{ngCart.getCart().items.length}}" name="count"></input>
