@@ -2,5 +2,5 @@ User-agent: *
 Disallow: /tmp/
 Disallow: */core/*
 
-Host: kolobashkin.ru
-Sitemap: http://kolobashkin.ru/sitemap.xml
+Host: woodybase.com
+Sitemap: http://woodybase.com/sitemap.xml
