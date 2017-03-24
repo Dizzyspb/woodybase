@@ -571,7 +571,7 @@ angular.module('kolobashkinApp').run(['$templateCache', function($templateCache)
 
 
   $templateCache.put('views/main.html',
-    "<div class=\"row main-block hidden-xs\"> <div class=\"col-md-12 col-sm-12\"> <ul rn-carousel rn-carousel-controls rn-carousel-auto-slide rn-carousel-controls-allow-loop class=\"main-slider\"> <li ng-repeat=\"image in sliderImages\"> <a ng-href=\"{{ image.href }}\"><img class=\"img-responsive\" ng-src=\"{{ image.src }}\"></a> </li> </ul> </div> <!-- <div rn-carousel-indicators ng-if=\"sliderImages.length > 1\" slides=\"sliderImages\" rn-carousel-index=\"carouselIndex\"></div> --> <!-- <a class=\" hover-block\" href=\"/catalog\">\n" +
+    "<div class=\"row main-block\"> <div class=\"col-md-12 col-sm-12\"> <ul rn-carousel rn-carousel-controls rn-carousel-auto-slide rn-carousel-controls-allow-loop class=\"main-slider\"> <li ng-repeat=\"image in sliderImages\"> <a ng-href=\"{{ image.href }}\"><img class=\"img-responsive\" ng-src=\"{{ image.src }}\"></a> </li> </ul> </div> <!-- <div rn-carousel-indicators ng-if=\"sliderImages.length > 1\" slides=\"sliderImages\" rn-carousel-index=\"carouselIndex\"></div> --> <!-- <a class=\" hover-block\" href=\"/catalog\">\n" +
     "                <div class=\"promo-1 main-promo\">\n" +
     "                    <img src=\"/images/promo-main.png\">\n" +
     "                    <h4>Final trait for you model</h4></div>\n" +
