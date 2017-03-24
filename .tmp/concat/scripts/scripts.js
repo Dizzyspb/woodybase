@@ -342,11 +342,11 @@ angular.module('kolobashkinApp')
     $scope.sliderImages = [
         {
             'src':'images/sliders/slide_1@2x.jpg',
-            'href':'S230/beech'
+            'href':'P130/beech'
         },
         {
             'src':'images/sliders/slide_2@2x.jpg',
-            'href':'P130/beech'
+            'href':'S230/beech'
         },
         {
             'src':'images/sliders/slide_3@2x.jpg',
